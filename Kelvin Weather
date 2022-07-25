@@ -1,9 +1,0 @@
-const kelvin = 356
-/* kelvin will stay constant */
-var celsius = kelvin - 273
-/* celsius is 273 less than kelvin */ 
-let farenheit = celsius * (9/5) + 32
-/* formula for farenheit */ 
-farenheit = Math.floor(farenheit)
-/* Using the .floor() method from the built-in Math object to round down the Fahrenheit temperature. */
-console.log(`The temperature is ${farenheit} degrees Fahrenheit.`)
